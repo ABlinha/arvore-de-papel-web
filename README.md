@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="[.github/assets/frontpage-preview.png](https://github.com/ABlinha/arvore-de-papel-web/blob/main/assets/frontpage-preview.png)" alt="Demonstração do projeto" width="100%">
+  <img src="https://github.com/ABlinha/arvore-de-papel-web/blob/main/assets/frontpage-preview.png" alt="Demonstração do projeto" width="100%">
 <p>
 
 ## Projeto
