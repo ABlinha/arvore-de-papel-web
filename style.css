@@ -1,0 +1,23 @@
+head{
+    background-color: #BDD38E;
+
+}
+body{
+    background-color: #fff9f1;
+}
+ul{
+    li-a {
+        list-style-image: url("./assets/sketchbook.png");
+        margin: 10px;
+        image-resolution: 10px;
+    }
+    
+    li-b {
+        list-style-image: url("./assets/binders.png");
+        margin: 10px;
+    }
+    li-c {
+        list-style-image: url("./assets/baby.png");
+        margin: 10px;
+    }
+}
