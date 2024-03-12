@@ -1,30 +1,48 @@
 <!DOCTYPE html>
 <head>
+    <link rel="stylesheet" href="./style.css">
     <title>Galeria Árvore de Papel</title>
     <link rel="icon" type="image/png" href="./assets/tree with butterflies.png"/>
-    <img src='.\assets\LogoAP_com_borboleta.png' atl='Logo Árvore de Papel'>
-    <h1>Árvore de Papel</h1>
-    <h2>cartonagem com tecido</h2>
-    <h2><a href="frontpage.html"> Início </a></h2>
-    <h2><a href="products.html"> Produtos </a></h2> 
-    <h2><a href="patterns.html"> Estampas </a></h2> 
-    <h2><a href="about-us.html"> Sobre Nós </a></h2>
 </head>
+
+<header>
+    <hgroup>
+        <img src='.\assets\LogoAP_com_borboleta.png' atl='Logo Árvore de Papel' style="float:left">
+        <h1>Árvore de Papel</h1>
+        <h2>cartonagem com tecido</h2>
+    </hgroup>
+    <div class="tabs">
+        <ul>
+            <li><a href="frontpage.html"> Início </a></li>
+            <li><a href="products.html"> Produtos </a></li>
+            <li><a href="patterns.html"> Estampas </a></li>
+            <li><a href="about-us.html" id="last"> Contato </a></li>        
+        </ul>
+    </div>
+</header>
 
 <body>
     <nav-about-us>
         <address>
-            <a href=>
-                <img src="./assets/whatsapp-logo.png" alt="whatsapp logo">
-                <h2>WhatsApp</h2>
-                <h3>+55 (61) 99992-0027</h3>
+            <a href="https://www.whatsapp.com" target="_blank">
+                <img src="./assets/whatsapp-logo.png" alt="Whatsapp logo" height="100px" width="100px">
             </a>
-
-            <a href="https://www.instagram.com/arvoredepapel/">
-                <img src="./assets/instagram-logo.png" atl="instagram logo">
-                <h2>Instagram</h2>
-                <h3>@ arvoredepapel</h3>
+            <h2>WhatsApp</h2>
+            <h3>+55 (61) 99992-0027</h3>
+            
+            <a href="https://www.instagram.com/arvoredepapel/" target="_blank">
+                <img src="./assets/instagram-logo.png" atl="instagram logo" height="100px" width="100px">
             </a>
+            <h2>Instagram</h2>
+            <h3>@ arvoredepapel</h3> 
+            <a href="mailto:arvoredepapel.cp@gmail.com" subject="Olá! Gostaria de encomendar..." target="_blank">
+                <img src="./assets/gmail.png" atl="Gmail logo" height="100px" width="100px">
+            </a>
+            <h2>Gmail</h2>      
+            <h3>arvoredepapel.cp@gmail.com</h3>
         </address>
+        <footer>
+            <br />
+        </footer>
     </nav-about-us>
 </body>

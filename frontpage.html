@@ -1,51 +1,68 @@
 <!DOCTYPE html>
 <head>
+    <link rel="stylesheet" href="./style.css">
     <title>Galeria Árvore de Papel</title>
     <link rel="icon" type="image/png" href="./assets/tree with butterflies.png"/>
-    <img src='.\assets\LogoAP_com_borboleta.png' atl='Logo Árvore de Papel'>
-    <h1>Árvore de Papel</h1>
-    <h2>cartonagem com tecido</h2>
-    <h2><a href="frontpage.html"> Início </a></h2>
-    <h2><a href="products.html"> Produtos </a></h2> 
-    <h2><a href="patterns.html"> Estampas </a></h2> 
-    <h2><a href="about-us.html"> Sobre Nós </a></h2>
 </head>
+
+<header>
+    <hgroup>
+        <img src='.\assets\LogoAP_com_borboleta.png' atl='Logo Árvore de Papel' style="float:left">
+        <h1>Árvore de Papel</h1>
+        <h2>cartonagem com tecido</h2>
+    </hgroup>
+    <div class="tabs">
+        <ul>
+            <li><a href="frontpage.html"> Início </a></li>
+            <li><a href="products.html"> Produtos </a></li>
+            <li><a href="patterns.html"> Estampas </a></li>
+            <li><a href="about-us.html" id="last"> Contato </a></li>        
+        </ul>
+    </div>
+</header>
 
 <body>
     <nav-frontpage>
         <div>
             <h2>Fazemos :</h2> 
-            <ul>
-                <li> <img src="./assets/sketchbook.png" alt="caderninhos">
-                Cadernos de tamanhos variados</li>
+            <dl>
+                <dd> <img src="./assets/sketchbook.png" align="center"
+                    alt="caderninhos" height="50" width="50">
+                Cadernos de tamanhos variados</dd><br />
             
-                <li> <img src="./assets/binders.png" atl="pastinhas">
-                Pastas Catálogo</li>
+                <dd> <img src="./assets/binders.png" align="center" 
+                    atl="pastinhas" height="50px" width="50px">
+                Pastas Catálogo</dd><br />
             
-                <li> <img src="./assets/baby.png" alt="bebezinho">
-                Capas para Caderno de Vacinas</li>
+                <dd> <img src="./assets/baby.png" align="center" 
+                    alt="bebezinho" height="50px" width="50px">
+                Capas para Caderno de Vacinas</dd><br />
             
-                <li> <img src="./assets/gifts.png" atl="presentinhos">
-                Mimos para presente</li>
-            </ul>
+                <dd> <img src="./assets/gifts.png" align="center" 
+                    atl="presentinhos" height="50px" width="50px">
+                Mimos para presente</dd>
+                </dl>
             <h2>Escolha a estampa de sua preferência!</h2>
-            <p ref=nav-patterns>acervo de Estampas</p>
+            <p><a href="patterns.html">acervo de estampas</a></p>
         </div>
         <div>
             <h2>Só dando aquela olhadinha ou não conhece nosso catálogo?
                 Tudo certo! </h2>
-            <p>veja nossos preços</p>
+            <p><a href="products.html">veja nossos preços</a></p>
             <div>
-                <img src="./assets/catalog.png" alt="catálogozinho">
+                <img src="./assets/catalog.png" alt="catálogozinho" height="100px" width="100px">
             </div>
         </div>
         <div>
             <div>
-                <img src="./assets/chat (1).png" atl="chatzinho">
+                <img src="./assets/chat (1).png" atl="chatzinho" height="100px" width="100px">
             </div>
             <h2>Todos os produtos são feitos por encomenda* com muito carinho!</h2>
-            <p>faça sua encomenda</p>
+            <p><a href="about-us.html">faça sua encomenda</a></p>
             <p>*Prazo de entrega a combinar</p>
         </div>
+        <footer>
+            <br />
+        </footer>
     </nav-frontpage>
 </body>
