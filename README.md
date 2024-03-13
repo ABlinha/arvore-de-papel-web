@@ -17,7 +17,7 @@ Esse projeto está sendo desenvolvido usando as seguintes tecnologias:
 ## Layout
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/MMs8U1UA5MLvSddC54jY7i/Galeria-%C3%81rvore-de-Papel?type=design&t=sWQ43sdXBAJ1yPAw-6).
 É necessário ter uma conta no [Figma](https://www.figma.com).
-Ícones disponibilizados por [Freepik](https://www.flaticon.com/free-icons/)
+Ícones disponibilizados por [Freepik](https://www.flaticon.com/)
 
 ## Sobre o cliente
 Árvore de Papel é uma loja criada por uma artesã experiente, focada em entregar cadernos personalizados sob encomenda, entre outros produtos artesanais.
