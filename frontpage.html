@@ -15,62 +15,61 @@
 
 <header>
     <img src='.\assets\LogoAP_com_borboleta.png' atl='Logo Árvore de Papel'>
-    <div class="logo">
         <h1>Árvore de Papel</h1>
-        <h2><strong>cartonagem com tecido</strong></h2>
-    </div>
-    <div class="tabs">
+        <h2>cartonagem com tecido</h2>
+        <br />
+        <br />
+        <br />
+    <nav>
         <ul>
-            <li><a href="frontpage.html"> Início </a></li>
-            <li><a href="products.html"> Produtos </a></li>
-            <li><a href="patterns.html"> Estampas </a></li>
-            <li><a href="about-us.html"> Contato </a></li>        
+            <li><button id="tab"><a href="frontpage.html"> Início </a></button></li>
+            <li><button id="tab"><a href="products.html"> Produtos </a></button></li>
+            <li><button id="tab"><a href="patterns.html"> Estampas </a></button></li>
+            <li><button id="tab"><a href="about-us.html"> Contato </a></button></li>        
         </ul>
-    </div>
+    </nav>
 </header>
 
 <body>
-    <nav-frontpage>
-        <div class="intro">
+    <div class="intro">
+        <hgroup id="lista">
             <h2>Fazemos :</h2><br />
             <dl>
-                <dd> <img src="./assets/sketchbook.png" align="center"
-                    alt="caderninhos" height="50" width="50">
+                <dd><img src="./assets/sketchbook.png" align="center"
+                    alt="caderninhos" height="45px" width="45px">
                 Cadernos de tamanhos variados</dd><br />
             
-                <dd> <img src="./assets/binders.png" align="center" 
-                    atl="pastinhas" height="50px" width="50px">
+                <dd><img src="./assets/binders.png" align="center" 
+                    atl="pastinhas" height="45px" width="45px">
                 Pastas Catálogo</dd><br />
             
-                <dd> <img src="./assets/baby.png" align="center" 
-                    alt="bebezinho" height="50px" width="50px">
+                <dd><img src="./assets/baby.png" align="center" 
+                    alt="bebezinho" height="45px" width="45px">
                 Capas para Caderno de Vacinas</dd><br />
             
-                <dd> <img src="./assets/gifts.png" align="center" 
-                    atl="presentinhos" height="50px" width="50px">
+                <dd><img src="./assets/gifts.png" align="center" 
+                    atl="presentinhos" height="45px" width="45px">
                 Mimos para presente</dd>
-                </dl>
-            <h2>Escolha a estampa de sua preferência!</h2>
-            <p><a href="patterns.html">acervo de estampas</a></p>
-        </div>
-        <div class="look">
-            <h2>Só dando aquela olhadinha ou não conhece nosso catálogo?
-                Tudo certo! </h2>
-            <p><a href="products.html">veja nossos preços</a></p>
-            <div>
-                <img src="./assets/catalog.png" alt="catálogozinho" height="100px" width="100px">
-            </div>
-        </div>
-        <div class="contact">
-            <div>
-                <img src="./assets/chat (1).png" atl="chatzinho" height="100px" width="100px">
-            </div>
-            <h2>Todos os produtos são feitos por encomenda* com muito carinho!</h2>
-            <p><a href="about-us.html">faça sua encomenda</a></p>
-            <p>*Prazo de entrega a combinar</p>
-        </div>
-        <footer>
-            <br />
-        </footer>
-    </nav-frontpage>
+            </dl>
+        </hgroup>
+        <h2 id="msg">Escolha a estampa de sua preferência!</h2>
+        <br />
+        <button id="page"><a href="patterns.html">acervo de estampas</a></button>
+    </div>
+
+    <div class="catalog">
+        <h2>Só dando aquela olhadinha ou não conhece nosso catálogo? Tudo certo!</h2>
+        <br />
+        <button id="page"><a href="products.html">veja nossos preços</a></button>
+        <img src="./assets/catalog.png" alt="catálogozinho" height="250px" width="250px">
+    </div>
+    
+    <div class="contact">
+        <img src="./assets/chat (1).png" atl="chatzinho" height="250px" width="250px">
+        <h2>Todos os produtos são feitos por encomenda* com muito carinho!</h2>
+        <br />
+        <button id="page"><a href="about-us.html">faça sua encomenda</a></button>
+        <br /><p>*Prazo de entrega a combinar</p>
+    </div>
+    <footer><a href="frontpage.html">voltar ao início</a></footer>
 </body>
